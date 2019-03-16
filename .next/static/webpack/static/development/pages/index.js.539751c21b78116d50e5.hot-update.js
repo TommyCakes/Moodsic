@@ -1,0 +1,226 @@
+webpackHotUpdate("static/development/pages/index.js",{
+
+/***/ "./components/FlexParent.js":
+/*!**********************************!*\
+  !*** ./components/FlexParent.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+
+
+var _div1Style,
+    _jsxFileName = "/Users/tommy/React/Moodsick/components/FlexParent.js";
+
+
+var parentStyle = {
+  margin: "10px 0px",
+  display: "flex",
+  flexFlow: "row wrap",
+  alignItems: "flex-start",
+  justifyContent: "center",
+  alignContent: "center",
+  background: 'black'
+};
+var mainImage1 = "/static/images/music/10.jpg";
+var mainImage2 = "/static/images/music/11.jpg";
+var mainImage3 = "/static/images/music/15.jpg";
+var smallImage1 = "/static/images/music/11.jpg";
+var smallImage2 = "/static/images/music/11.jpg";
+var smallImage3 = "/static/images/music/11.jpg";
+var smallImage4 = "/static/images/music/11.jpg";
+var smallImage5 = "/static/images/music/11.jpg";
+var discImage1 = "/static/images/music/6.jpg";
+var discImage2 = "/static/images/music/11.jpg";
+var discImage3 = "/static/images/music/11.jpg";
+var discImage4 = "/static/images/music/11.jpg";
+var discImage5 = "/static/images/music/11.jpg";
+var div1Style = (_div1Style = {
+  width: 180,
+  height: 360
+}, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_div1Style, "width", 620), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_div1Style, "maxHeight", 680), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_div1Style, "margin", 10), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_div1Style, "background", '#191927'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_div1Style, "borderRadius", 5), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_div1Style, "backgroundImage", "url(".concat(mainImage1, ")")), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_div1Style, "backgroundPosition", '10'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_div1Style, "backgroundSize", 'cover'), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_div1Style, "backgroundRepeat", 'no-repeat'), _div1Style);
+var div2Style = {
+  width: 180,
+  height: 360,
+  margin: 10,
+  background: '#191927',
+  borderRadius: 5,
+  backgroundImage: "url(".concat(mainImage2, ")"),
+  backgroundPosition: 'center',
+  backgroundSize: 'cover',
+  backgroundRepeat: 'no-repeat'
+};
+var div3Style = {
+  width: 250,
+  height: 400,
+  margin: 10,
+  background: '#191927',
+  borderRadius: 5,
+  backgroundImage: "url(".concat(mainImage3, ")"),
+  backgroundPosition: 'center',
+  backgroundSize: 'cover',
+  backgroundRepeat: 'no-repeat'
+};
+var itemsStyle = {
+  // /* background:steelblue, */
+  height: 110,
+  width: '100',
+  margin: 0,
+  display: "flex",
+  justifyContent: "center",
+  marginBottom: 60
+};
+var boxStyle = {
+  height: 100,
+  width: 100,
+  background: "purple",
+  borderRadius: 5,
+  margin: 10,
+  alignContent: "center",
+  backgroundImage: "url(".concat(discImage1, ")"),
+  backgroundPosition: 'center',
+  backgroundSize: 'cover',
+  backgroundRepeat: 'no-repeat'
+};
+
+var parentEl = function parentEl() {
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    class: "parent",
+    style: parentStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 90
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    class: "div-1",
+    style: div1Style,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 91
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    class: "div-2",
+    style: div2Style,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 94
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    class: "div-3",
+    style: div3Style,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 96
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    class: "items",
+    style: itemsStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 99
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    class: "box",
+    style: boxStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 100
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    class: "box",
+    style: boxStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 101
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    class: "box",
+    style: boxStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 102
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    class: "box",
+    style: boxStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 103
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    class: "box",
+    style: boxStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 104
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    class: "box",
+    style: boxStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 105
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    class: "box",
+    style: boxStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 106
+    },
+    __self: this
+  })));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (parentEl);
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _defineProperty; });
+/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
+/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__);
+
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default()(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+}
+
+/***/ })
+
+})
+//# sourceMappingURL=index.js.539751c21b78116d50e5.hot-update.js.map
