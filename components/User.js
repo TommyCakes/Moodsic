@@ -1,3 +1,6 @@
+import Link from 'next/link'
+import fetch from 'isomorphic-unfetch'
+
 const userStyle = {
     margin:10,   
     display: 'flex',
@@ -29,20 +32,22 @@ const buttonStyle = {
     width:110
 }
 
-function getCurrentUser() {
-    return {
-        avatarUrl : 'https://placekitten.com/g/90/90',
-        name: "TommyCakes",
-        status: "Preminum"
-    }
-}
+var user = {
+    avatarUrl : 'https://placekitten.com/g/90/90',
+    name: "TommyCakes",
+    status: "Preminum"
+  }
 
 function Avatar(props) {
     return (
-        <img className="Avatar" style={avatarStyle}
-            src={props.user.avatarUrl}
-            alt={props.user.name}
-          />
+        <Link href="/profile">
+            <a>
+                <img className="Avatar" style={avatarStyle}
+                src={props.user.avatarUrl}
+                alt={props.user.name}
+                />
+            </a>
+        </Link>
     )
 }
 
@@ -50,7 +55,6 @@ function UserInfo(props) {
     return (
         <div className="UserInfo" style={userInfoStyle}>
             <Avatar user={props.user}/>
-
             <div className="UserInfo" style={profileStyle}>
             <p>{props.user.name}</p>
             <button style={buttonStyle}>{props.user.status}</button>
@@ -62,17 +66,17 @@ function UserInfo(props) {
 
 function User(props) {
     return (
-      <div className="User" style={userStyle}>               
-        <UserInfo user={props.user}/>      
+      <div className="User" style={userStyle}>                   
+        <UserInfo user={props.user}/>   
       </div>
     );
   }
 
-  const Profile = () => (
+  const Profile = (props) => (      
       <div>
         <User
-            user={getCurrentUser()}
-        />
+            user={user}            
+        />        
       </div>
   )
 
